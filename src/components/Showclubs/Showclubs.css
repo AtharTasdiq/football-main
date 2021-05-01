@@ -1,0 +1,28 @@
+
+.team-card{
+    width: 500px;
+    height: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px !important;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.team-card img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1400px){
+    .team-card{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 768px){
+    .team-card{
+       margin-top: 50px;
+    }
+}

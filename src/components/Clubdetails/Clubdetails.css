@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(51, 86, 133);
+}
+.header{
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.team-logo{
+    filter: blur(0px);
+    z-index: 9999;
+}
+
+.team-details{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: white;
+    padding: 20px;
+}
+.team-details h1{
+    font-size: 60px;
+}
+.team-details img{
+    height: auto;
+    width: 100%;
+    margin-top: 12px;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.socialIcons{
+    padding: 13px; 
+    border-radius: 50%;
+    margin: 1px;
+    font-size: 41px;
+    color: black;
+}
+.socialIcons:hover{
+    color: grey
+}
+@media screen and (max-width: 500px){
+     .team-logo img{
+         width: 300px !important ;
+     }
+  }

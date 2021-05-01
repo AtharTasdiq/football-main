@@ -1,0 +1,45 @@
+.header{
+    position: relative;
+}
+.main-header
+{
+    width: 100%;
+    background-image: url('../../images/footballBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    filter: blur(2px);
+}
+.header-content h1{
+       position: absolute;
+       top: 60px;
+       bottom: 0;
+       right: 0;
+       left:0;
+       color:white;
+       font-size: 100px;
+       z-index: 99999;
+}
+@media screen and (max-width: 500px){
+  .header-content h1{
+    font-size: 50px;  
+  }
+
+}
+.glow {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px rgb(161, 0, 0), 0 0 30px #223d61, 0 0 40px #1c5285, 0 0 50px #25049e, 0 0 60px #351b91, 0 0 70px #6710ca;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #228b68, 0 0 40px #177433, 0 0 50px #205a81, 0 0 60px #164b58, 0 0 70px #1d5391, 0 0 80px #ff4da6;
+    }
+  }
